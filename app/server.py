@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
-from app.modules.extractor import extract_text_from_pdf
-from app.modules.chunker import chunk_text
-from app.modules.embeddings import embed_and_store, query_similar_chunks
-from app.modules.answer_generator import generate_answer
+from modules.extractor import extract_text_from_pdf
+from modules.chunker import chunk_text
+from modules.embeddings import embed_and_store, query_similar_chunks
+from modules.answer_generator import generate_answer
 from dotenv import load_dotenv
 import os
 import requests
