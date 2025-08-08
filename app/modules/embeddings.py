@@ -1,6 +1,6 @@
 from pinecone import Pinecone, ServerlessSpec
 from dotenv import load_dotenv
-from modules.answer_generator import generate_answer
+from app.modules.answer_generator import generate_answer
 load_dotenv()
 
 from typing import List, Tuple
